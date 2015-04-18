@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Tkinter  | SoEasyRight</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="123456try:    # for Python2    from Tkinter import *except ImportError:    # for Python3    from tkinter import *
+使用 Tk 首先要 import tkinter ，這裡用 from ， import 之後星號表示所有名稱，這使我們在程式中可以直接使用 tkinter 中的名稱，不需要">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Tkinter ">
+<meta property="og:url" content="https://soeasyright.github.io/2015/04/18/Python/Tkinter/index.html">
+<meta property="og:site_name" content="SoEasyRight">
+<meta property="og:description" content="123456try:    # for Python2    from Tkinter import *except ImportError:    # for Python3    from tkinter import *
+使用 Tk 首先要 import tkinter ，這裡用 from ， import 之後星號表示所有名稱，這使我們在程式中可以直接使用 tkinter 中的名稱，不需要">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Tkinter ">
+<meta name="twitter:description" content="123456try:    # for Python2    from Tkinter import *except ImportError:    # for Python3    from tkinter import *
+使用 Tk 首先要 import tkinter ，這裡用 from ， import 之後星號表示所有名稱，這使我們在程式中可以直接使用 tkinter 中的名稱，不需要">
+  
+    <link rel="alternative" href="/atom.xml" title="SoEasyRight" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+  
+
+</head>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">SoEasyRight</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">我擁有的只是僥倖,失去的都是人生</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="q" value="site:https://soeasyright.github.io"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-Python/Tkinter" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2015/04/18/Python/Tkinter/" class="article-date">
+  <time datetime="2015-04-18T14:59:04.000Z" itemprop="datePublished">2015-04-18</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/python/">python</a>►<a class="article-category-link" href="/categories/python/senior/">senior</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Tkinter 
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">try</span>:</span><br><span class="line">    <span class="comment"># for Python2</span></span><br><span class="line">    <span class="keyword">from</span> Tkinter <span class="keyword">import</span> *</span><br><span class="line"><span class="keyword">except</span> ImportError:</span><br><span class="line">    <span class="comment"># for Python3</span></span><br><span class="line">    <span class="keyword">from</span> tkinter <span class="keyword">import</span> *</span><br></pre></td></tr></table></figure>
+<p>使用 Tk 首先要 import tkinter ，這裡用 from ， import 之後星號表示所有名稱，這使我們在程式中可以直接使用 tkinter 中的名稱，不需要連帶寫出 tkinter<br><figure class="highlight nix"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">root =</span> Tk() <span class="comment">##create TK object</span></span><br><span class="line"><span class="variable">some =</span> Label(root, <span class="variable">text=</span><span class="string">"Hello World!"</span>, <span class="variable">width=</span><span class="string">"30"</span>, <span class="variable">height=</span><span class="string">"5"</span>) <span class="comment">## Label with "Hello World"</span></span><br><span class="line">some.pack()</span><br><span class="line">root.mainloop()</span><br></pre></td></tr></table></figure></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">GUIDemo</span><span class="params">(Frame)</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span><span class="params">(self, master=None)</span>:</span></span><br><span class="line">        Frame.__init__(self, master)</span><br><span class="line">        self.grid()</span><br><span class="line">        self.createWidgets()</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">createWidgets</span><span class="params">(self)</span>:</span></span><br><span class="line">        self.inputText = Label(self)</span><br><span class="line">        self.inputText[<span class="string">"text"</span>] = <span class="string">"Name:"</span></span><br><span class="line">        self.inputText.grid(row=<span class="number">0</span>, column=<span class="number">0</span>)</span><br><span class="line"></span><br><span class="line">        self.inputField = Entry(self)</span><br><span class="line">        self.inputField[<span class="string">"width"</span>] = <span class="number">50</span></span><br><span class="line">        self.inputField.grid(row=<span class="number">0</span>, column=<span class="number">1</span>, columnspan=<span class="number">3</span>)</span><br><span class="line"></span><br><span class="line">        self.submit = Button(self)</span><br><span class="line">        self.submit[<span class="string">"text"</span>] = <span class="string">"submit"</span></span><br><span class="line">        self.submit.grid(row=<span class="number">2</span>, column=<span class="number">3</span>)</span><br><span class="line">        self.submit[<span class="string">"command"</span>] =  self.submitMethod</span><br><span class="line"></span><br><span class="line">        self.displayText = Label(self)</span><br><span class="line">        self.displayText[<span class="string">"text"</span>] = <span class="string">""</span></span><br><span class="line">        self.displayText.grid(row=<span class="number">3</span>, column=<span class="number">0</span>, columnspan=<span class="number">3</span>)</span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">submitMethod</span><span class="params">(self)</span>:</span></span><br><span class="line">        self.displayText[<span class="string">"text"</span>] = <span class="string">"Hello %s"</span> % self.inputField.get()</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">'__main__'</span>:</span><br><span class="line">    root = Tk()</span><br><span class="line">    app = GUIDemo(master=root)</span><br><span class="line">    app.mainloop()</span><br></pre></td></tr></table></figure>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://soeasyright.github.io/2015/04/18/Python/Tkinter/" data-id="ci8n6hf0500530fbropheaf21" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/python/">python</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/python-GUI/">python GUI</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tkinter/">tkinter</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2015/04/18/arduino/light-sword/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          light sword
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2015/04/18/Python/itertolls-DFS/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">itertolls + DFS</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Developer-Tools/">Developer Tools</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/Game/">Game</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/arduino/">arduino</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/iOS/">iOS</a><span class="category-list-count">11</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/iOS/EZCode/">EZCode</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/iOS/Mechanism/">Mechanism</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/iOS/Media/">Media</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/iOS/StoreKit/">StoreKit</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/iOS/StoreKit/SKStoreProductViewController/">SKStoreProductViewController</a><span class="category-list-count">1</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/iOS/Tutorial/">Tutorial</a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/iOS/concept/">concept</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/iOS/third-party/">third party</a><span class="category-list-count">3</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/python/">python</a><span class="category-list-count">6</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/python/junior/">junior</a><span class="category-list-count">3</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/python/senior/">senior</a><span class="category-list-count">3</span></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/third-party/">third party</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/third-party/Database/">Database</a><span class="category-list-count">1</span></li></ul></li></ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Autolayout/">Autolayout</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/BLE/">BLE</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/BattleCat/">BattleCat</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Database/">Database</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/EZoApp/">EZoApp</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Html5-Moblie/">Html5 Moblie</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/List-comprehension/">List comprehension</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/NSCache/">NSCache</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Report-Server/">Report Server</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/UIControl/">UIControl</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/UIScrollView/">UIScrollView</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/UITableView/">UITableView</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/arduino/">arduino</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/autolayout/">autolayout</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/camera/">camera</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/cocoapods/">cocoapods</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/html5/">html5</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/iOS-Autolayout/">iOS Autolayout</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/iOS-Dev-Club/">iOS Dev Club</a><span class="tag-list-count">10</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/iOS-EZCode/">iOS EZCode</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/iOS-HLS/">iOS HLS</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/iOS-Notification/">iOS Notification</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/iOS-SKStoreProductViewController/">iOS SKStoreProductViewController</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/iOS-StoreKit/">iOS StoreKit</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/iOS-UITalbeView/">iOS UITalbeView</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/iOS-concept/">iOS concept</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/iOS-delegete/">iOS delegete</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/iOS-mechanism/">iOS mechanism</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/javascript/">javascript</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/keyboard/">keyboard</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/project-manager/">project manager</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/python/">python</a><span class="tag-list-count">6</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/python-GUI/">python GUI</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/python-itertolls/">python itertolls</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/python-map/">python map</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/sort/">sort</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/third-party/">third party</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/tkinter/">tkinter</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/tool/">tool</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/web-api/">web api</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/youTube/">youTube</a><span class="tag-list-count">1</span></li></ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/Autolayout/" style="font-size: 10px;">Autolayout</a><a href="/tags/BLE/" style="font-size: 10px;">BLE</a><a href="/tags/BattleCat/" style="font-size: 10px;">BattleCat</a><a href="/tags/Database/" style="font-size: 10px;">Database</a><a href="/tags/EZoApp/" style="font-size: 10px;">EZoApp</a><a href="/tags/Html5-Moblie/" style="font-size: 10px;">Html5 Moblie</a><a href="/tags/List-comprehension/" style="font-size: 10px;">List comprehension</a><a href="/tags/NSCache/" style="font-size: 10px;">NSCache</a><a href="/tags/Report-Server/" style="font-size: 10px;">Report Server</a><a href="/tags/UIControl/" style="font-size: 10px;">UIControl</a><a href="/tags/UIScrollView/" style="font-size: 12px;">UIScrollView</a><a href="/tags/UITableView/" style="font-size: 10px;">UITableView</a><a href="/tags/arduino/" style="font-size: 10px;">arduino</a><a href="/tags/autolayout/" style="font-size: 10px;">autolayout</a><a href="/tags/camera/" style="font-size: 10px;">camera</a><a href="/tags/cocoapods/" style="font-size: 10px;">cocoapods</a><a href="/tags/html5/" style="font-size: 10px;">html5</a><a href="/tags/iOS-Autolayout/" style="font-size: 10px;">iOS Autolayout</a><a href="/tags/iOS-Dev-Club/" style="font-size: 20px;">iOS Dev Club</a><a href="/tags/iOS-EZCode/" style="font-size: 10px;">iOS EZCode</a><a href="/tags/iOS-HLS/" style="font-size: 10px;">iOS HLS</a><a href="/tags/iOS-Notification/" style="font-size: 10px;">iOS Notification</a><a href="/tags/iOS-SKStoreProductViewController/" style="font-size: 10px;">iOS SKStoreProductViewController</a><a href="/tags/iOS-StoreKit/" style="font-size: 10px;">iOS StoreKit</a><a href="/tags/iOS-UITalbeView/" style="font-size: 10px;">iOS UITalbeView</a><a href="/tags/iOS-concept/" style="font-size: 14px;">iOS concept</a><a href="/tags/iOS-delegete/" style="font-size: 10px;">iOS delegete</a><a href="/tags/iOS-mechanism/" style="font-size: 10px;">iOS mechanism</a><a href="/tags/javascript/" style="font-size: 10px;">javascript</a><a href="/tags/keyboard/" style="font-size: 10px;">keyboard</a><a href="/tags/project-manager/" style="font-size: 10px;">project manager</a><a href="/tags/python/" style="font-size: 18px;">python</a><a href="/tags/python-GUI/" style="font-size: 10px;">python GUI</a><a href="/tags/python-itertolls/" style="font-size: 10px;">python itertolls</a><a href="/tags/python-map/" style="font-size: 10px;">python map</a><a href="/tags/sort/" style="font-size: 10px;">sort</a><a href="/tags/third-party/" style="font-size: 16px;">third party</a><a href="/tags/tkinter/" style="font-size: 10px;">tkinter</a><a href="/tags/tool/" style="font-size: 10px;">tool</a><a href="/tags/web-api/" style="font-size: 10px;">web api</a><a href="/tags/youTube/" style="font-size: 10px;">youTube</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/04/">April 2015</a><span class="archive-list-count">57</span></li></ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recents</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2015/04/18/arduino/light-sword/">light sword</a>
+          </li>
+        
+          <li>
+            <a href="/2015/04/18/Python/Tkinter/">Tkinter </a>
+          </li>
+        
+          <li>
+            <a href="/2015/04/18/Python/itertolls-DFS/">itertolls + DFS</a>
+          </li>
+        
+          <li>
+            <a href="/2015/04/18/Python/List-comprehension-Map/">List comprehension+Map</a>
+          </li>
+        
+          <li>
+            <a href="/2015/04/18/Python/Read-file-and-get-internet-data/">Read file and get internet data</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2015 SoEasyRight<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css" type="text/css">
+  <script src="/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+
+
+<script src="/js/script.js" type="text/javascript"></script>
+
+  </div>
+</body>
+</html>
